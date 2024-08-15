@@ -1,10 +1,32 @@
-.box {
+header {
+    background-color: aquamarine;
+    padding: 45px;
+    margin: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+.item {
     box-sizing: border-box;
+    align-items: center;
+    margin: 45px;
 }
 h1 {
     text-align: center;
-    
+    text-shadow: 6px;
 }
 .container {
-    
+    flex-basis: 30px;
+    flex-direction: row;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 45px;
+
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: rgb(58, 57, 57);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 35px;
 }
