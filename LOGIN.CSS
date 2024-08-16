@@ -130,6 +130,7 @@ a:hover {
 
 .footer p {
     margin: 0;
+    margin-left: 5px;
     text-align: left;
 }
 
@@ -141,4 +142,5 @@ a:hover {
     width: auto;
     object-fit: contain;
     border-radius: 50%;
+    margin-bottom: 1px;
 }
