@@ -103,6 +103,7 @@ a:hover {
     cursor: pointer;
     transition: background-color 0.3s;
     align-self: center;
+    margin-bottom: 0.5rem;
 }
 
 .facebook-btn {
