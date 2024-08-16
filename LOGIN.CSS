@@ -105,11 +105,39 @@ a:hover {
     align-self: center;
 }
 
+.facebook-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #fffbfb;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.facebook-btn:hover {
+    align-self: center;
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+}
+
+.facebook-btn img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
 .google-btn:hover {
     align-self: center;
     background-color: #f1f1f1;
     padding: 0.5rem;
 }
+
 
 .google-btn img {
     width: 18px;
