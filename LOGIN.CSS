@@ -124,11 +124,21 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 15px;
     z-index: 100;
 }
 
 .footer p {
     margin: 0;
     text-align: left;
+}
+
+.footer-logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px; /* Ajusta este valor según el tamaño que desees para tu logo */
+    width: auto;
+    object-fit: contain;
+    border-radius: 50%;
 }
