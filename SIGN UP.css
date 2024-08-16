@@ -26,3 +26,7 @@ body {
     object-fit: contain;
     border-radius: 50%;
 }
+.signup form {
+    display: flex;
+    flex-direction: column;
+}
