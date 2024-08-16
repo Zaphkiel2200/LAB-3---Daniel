@@ -160,6 +160,7 @@ a:hover {
     transition: background-color 0.3s;
     align-self: center;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .X-btn:hover {
@@ -172,6 +173,7 @@ a:hover {
     width: 18px;
     height: 18px;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 .footer {
