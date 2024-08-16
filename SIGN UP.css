@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(OIG3.bF.WUcq9MzN_upscayl_3x_realesrgan-x4plus-anime.png);
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.signup-logo {
+    position: fixed;
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
