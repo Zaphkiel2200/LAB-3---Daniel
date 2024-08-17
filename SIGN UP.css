@@ -19,10 +19,13 @@ body {
 }
 
 .container {
+    display: flex;
+    width: 80%;
+    height: 80%;
     background-color: white;
-    padding: 3rem;
-    border-radius: 20px;
-    box-shadow: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .signup-logo {
