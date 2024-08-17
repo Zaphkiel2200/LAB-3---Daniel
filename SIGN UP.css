@@ -18,6 +18,13 @@ body {
     height: 100vh;
 }
 
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     width: 80%;
