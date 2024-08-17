@@ -56,3 +56,25 @@ label {
     color: #666;
 }
 
+input {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+
